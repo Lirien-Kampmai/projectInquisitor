@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4470678326319982239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6915743278880276086}
+  - component: {fileID: 1282245868478057642}
+  - component: {fileID: 8326381691956123521}
+  - component: {fileID: 3834851395416147738}
+  - component: {fileID: 941724202292278430}
+  m_Layer: 0
+  m_Name: LevelSequenceController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6915743278880276086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470678326319982239}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1606.0201, y: 1055.2911, z: -19.251081}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1282245868478057642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470678326319982239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc462b82400d22748a3ed3dfe70cc2af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doNotDestroyOnLoad: 1
+--- !u!114 &8326381691956123521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470678326319982239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac9d89d1aeafb44493337e02b6d763b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doNotDestroyOnLoad: 1
+  m_CompletitionData:
+  - episod: {fileID: 11400000, guid: 476f2c25a0f35dd489e64366979b5c9a, type: 2}
+  - episod: {fileID: 11400000, guid: 1d359f1dc748be745b0537951f895f4f, type: 2}
+  - episod: {fileID: 11400000, guid: 134ba0ab0793f2d439a7ccad5a6f6815, type: 2}
+  sequenceController: {fileID: 1282245868478057642}
+--- !u!114 &3834851395416147738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470678326319982239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b0023d2673843438a469b9afc652d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: {fileID: 8326381691956123521}
+  sequenceController: {fileID: 1282245868478057642}
+--- !u!114 &941724202292278430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470678326319982239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 959decaba4e607241a0df3afea5cf357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequenceController: {fileID: 1282245868478057642}
+  saveLoad: {fileID: 8326381691956123521}
